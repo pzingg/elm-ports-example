@@ -2,7 +2,7 @@ module.exports = localStoragePortsFactory;
 
 /**
  * Create a ports object.
- * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports/
+ * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports
  *
  */
 function localStoragePortsFactory() {
@@ -16,7 +16,7 @@ function localStoragePortsFactory() {
       throw new Error('Unexpected object: ' + x);
     }
 
-    // From: https://github.com/dillonkearns/elm-typescript-starter/blob/custom-types-spike
+    // From: https://github.com/dillonkearns/elm-typescript-starter/tree/custom-types-spike
     function localStorageFromElm(data) {
       if (data.kind === 'StoreItem') {
         log('StoreItem!', data);

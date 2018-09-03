@@ -7,7 +7,7 @@ port module Ports.LocalStorage
         , localStorageSubscription
         )
 
-{-| From: <https://github.com/dillonkearns/elm-typescript-starter/blob/custom-types-spike>
+{-| From: <https://github.com/dillonkearns/elm-typescript-starter/tree/custom-types-spike>
 -}
 
 import Json.Decode

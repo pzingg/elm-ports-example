@@ -4,7 +4,7 @@ port module Ports.GoogleAnalytics
         , googleAnalytics
         )
 
-{-| From: <https://github.com/dillonkearns/elm-typescript-starter/blob/custom-types-spike>
+{-| From: <https://github.com/dillonkearns/elm-typescript-starter/tree/custom-types-spike>
 -}
 
 import Json.Encode

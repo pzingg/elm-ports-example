@@ -2,14 +2,13 @@ module.exports = googleAnalyticsPortsFactory;
 
 /**
  * Create a ports object.
- * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports/
- *
- * You'd probably have some Google Analytics setup code here, something like
- * https://github.com/dillonkearns/mobster/blob/2ad66f514579a09a9679b75b6c1b2956e7879b46/typescript/analytics.ts#L23-L40
+ * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports
  *
  */
 function googleAnalyticsPortsFactory() {
 
+  // You'd probably have some Google Analytics setup code here, something like
+  // https://github.com/dillonkearns/mobster/blob/2ad66f514579a09a9679b75b6c1b2956e7879b46/typescript/analytics.ts#L23-L40
   function register(ports, log) {
     ports.googleAnalyticsFromElm.subscribe(googleAnalyticsFromElm);
 
@@ -19,7 +18,7 @@ function googleAnalyticsPortsFactory() {
       throw new Error('Unexpected object: ' + x);
     }
 
-    // From: https://github.com/dillonkearns/elm-typescript-starter/blob/custom-types-spike
+    // From: https://github.com/dillonkearns/elm-typescript-starter/tree/custom-types-spike
     function googleAnalyticsFromElm(data) {
       if (data.kind === 'TrackPage') {
         log('TrackPage!', data);

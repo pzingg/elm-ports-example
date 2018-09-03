@@ -2,7 +2,7 @@ module.exports = phoenixChannelPortsFactory;
 
 /**
  * Create a websocket ports object.
- * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports/
+ * From: https://github.com/paulstatezny/elm-phoenix-websocket-ports
  *
  * @param {Object}   phoenix        The Phoenix JavaScript bundle. (Used to access the Socket constructor.)
  * @param {String}   endpoint       The URL of the socket endpoint. ("/socket" by default in Phoenix.)
