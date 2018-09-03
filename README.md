@@ -1,7 +1,8 @@
 # elm-ports-example
 
 Demonstration of structured, type-safe Javascript interop for Elm, based on Murphy Randle's
-observations at ElmConf Paris 2018. The Elm app showw examples of three different
+["The Importance of Ports"](https://www.youtube.com/watch?v=P3pL85n9_5s) talk
+at ElmConf US 2017. This little Elm app shows examples of three different
 ports that use the same encoding/decoding convention.
 
 Work is largely derived from these two projects:
